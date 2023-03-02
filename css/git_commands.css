@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #42a5f5;
+    border-bottom: 3px solid #e53935;
+}
+.footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 40px;
+    background: rgb(43, 41, 41);
+    color: white;
+    width: 100%;
+    font-size: 7px;
+    text-align: center;
+}
+.auth a {
+    color: black;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.git_create {
+    padding-left: 150px;
+}
+.changes h1{
+    color: rgb(36, 196, 36);
+    font-size: 25px;
+    margin: 0 0 0 30 px;
+    line-height: 30px;
+}
+.changes p1 {
+    color: rgb(82, 79, 79);
+    font-size: 15px;
+    margin: 30px 0 0 0 ;
+    line-height: 10px;
+}
+.changes h2 {
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 900;
+    font-family:cursive;
+}
+.synchronize h1 {
+    color: rgb(187, 36, 36);
+    font-size: 25px;
+    margin: 0 0 0 30 px;
+    line-height: 30px;
+}
+.synchronize p1 {
+    color: rgb(82, 79, 79);
+    font-size: 15px;
+    margin: 30px 0 0 0 ;
+    line-height: 10px;
+}
+.synchronize h2 {
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 900;
+    font-family:cursive;
+}
+.branches h1 {
+    color: rgb(53, 230, 53);
+    font-size: 25px;
+    margin: 0 0 0 30 px;
+    line-height: 30px;
+}
+.branches p1 {
+    color: rgb(82, 79, 79);
+    font-size: 15px;
+    margin: 30px 0 0 0 ;
+    line-height: 10px;
+}
+.branches h2 {
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 900;
+    font-family:cursive;
+}
+.git_create h1{
+    color: rgb(99, 99, 248);
+    font-size: 25px;
+    margin: 0 0 0 30 px;
+    line-height: 30px;
+}
+.git_create p1{
+    color: rgb(82, 79, 79);
+    font-size: 15px;
+    margin: 30px 0 0 0 ;
+    line-height: 10px;
+}
+.git_create h2 {
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 900;
+    font-family:cursive;
+}
+.parent > div {
+    background: #eee;
+    float: left;
+    width: 20%;
+    margin-right: 2%;
+    padding: 10px;
+    border: 1px solid #eee;
+}
